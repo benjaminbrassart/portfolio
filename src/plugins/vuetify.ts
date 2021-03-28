@@ -1,29 +1,32 @@
-import Vue from 'vue';
-import Vuetify from 'vuetify';
-import 'vuetify/dist/vuetify.min.css';
-import fr from 'vuetify/src/locale/fr';
+import Vue from "vue";
+import Vuetify from "vuetify";
+import "vuetify/dist/vuetify.min.css";
+import fr from "vuetify/src/locale/fr";
 
 Vue.use(Vuetify);
 
 export default new Vuetify({
-  theme: {
-      options: {
-        customProperties: true,
-      },
-    themes: {
-      light: {
-        primary: '#ee44aa',
-        secondary: '#424242',
-        accent: '#82B1FF',
-        error: '#FF5252',
-        info: '#2196F3',
-        success: '#4CAF50',
-        warning: '#FFC107'
-      },
+    icons: {
+        iconfont: "mdiSvg",
     },
-  },
+    theme: {
+        options: {
+            customProperties: true,
+        },
+        themes: {
+            light: {
+                primary: "#90A4AE",
+                secondary: "#455A64",
+                accent: "#29B6F6",
+                error: "#FF5252",
+                info: "#2196F3",
+                success: "#4CAF50",
+                warning: "#FFC107",
+            },
+        },
+    },
     lang: {
-      locales: { fr },
-      current: 'fr',
+        locales: { fr },
+        current: "fr",
     },
 });

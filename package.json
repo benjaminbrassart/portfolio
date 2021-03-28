@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "@mdi/font": "5.9.55",
+    "@mdi/font": "^5.9.55",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
     "roboto-fontface": "*",
