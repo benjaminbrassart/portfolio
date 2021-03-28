@@ -1,5 +1,5 @@
 <template>
-  <v-footer fixed padless>
+  <v-footer fixed padless app>
     <v-card flat tile width="100%" class="text-center">
       <v-divider />
       <v-card-text> 2021 — <b>Benjamin BRASSART</b> </v-card-text>
