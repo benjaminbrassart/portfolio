@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <v-app id="app" style="background-color: #141b1f !important">
     <Navbar />
     <v-container>
       <v-row style="justify-content: center">
@@ -9,7 +9,7 @@
       </v-row>
     </v-container>
     <Footer />
-  </div>
+  </v-app>
 </template>
 
 <script lang="ts">

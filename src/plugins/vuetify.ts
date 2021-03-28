@@ -10,14 +10,15 @@ export default new Vuetify({
         iconfont: "mdiSvg",
     },
     theme: {
+        dark: true,
         options: {
             customProperties: true,
         },
         themes: {
-            light: {
-                primary: "#90A4AE",
-                secondary: "#455A64",
-                accent: "#29B6F6",
+            dark: {
+                primary: "#1976D2",
+                secondary: "#424242",
+                accent: "#82B1FF",
                 error: "#FF5252",
                 info: "#2196F3",
                 success: "#4CAF50",
