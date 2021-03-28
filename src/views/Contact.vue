@@ -1,6 +1,7 @@
 <template>
-  <v-card rounded>
-    <v-card-title>{{ $t("content.contact.header") }}</v-card-title>
+  <div>
+    <h1 class="text-h4 white--text">{{ $t("content.contact.header") }}</h1>
+    <v-divider class="mt-3 mb-2" />
     <v-container>
       <v-row>
         <v-col>
@@ -44,10 +45,7 @@
         </template>
       </v-textarea>
     </v-container>
-    <v-btn color="accent" dark absolute bottom right fab @click="sendClick">
-      <v-icon>mdi-send</v-icon>
-    </v-btn>
-  </v-card>
+  </div>
 </template>
 
 <script lang="ts">
