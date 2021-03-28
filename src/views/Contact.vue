@@ -4,7 +4,7 @@
     <v-divider class="mt-3 mb-2" />
     <v-container>
       <v-row>
-        <v-col>
+        <v-col cols="12" sm="6" class="pb-0">
           <v-text-field dense outlined v-model="form.name" :rules="rules.name">
             <template slot="label">
               {{ $t("content.contact.message-name") }}
@@ -14,11 +14,12 @@
             </template>
           </v-text-field>
         </v-col>
-        <v-col>
+        <v-col cols="12" sm="6" class="pt-2 pb-5">
           <v-text-field
             dense
             outlined
             v-model="form.email"
+            type="email"
             :rules="rules.email"
           >
             <template slot="label">
@@ -44,7 +45,7 @@
           <v-icon>mdi-lead-pencil</v-icon>
         </template>
       </v-textarea>
-      <p class="text-left">
+      <p class="text-left primary--text">
         {{ $t("content.contact.data-privacy") }}
       </p>
     </v-container>
@@ -86,9 +87,9 @@ export default Vue.extend({
         ],
         content: [
           (v: string) =>
-            v.length >= 20 || i18n.t(`content.contact.error.name.minimum`),
+            v.length >= 20 || i18n.t(`content.contact.error.content.minimum`),
           (v: string) =>
-            v.length <= 2000 || i18n.t(`content.contact.error.name.maximum`),
+            v.length <= 2000 || i18n.t(`content.contact.error.content.maximum`),
         ],
       },
     };
