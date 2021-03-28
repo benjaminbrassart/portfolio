@@ -33,6 +33,9 @@
                 }
             }
         },
+        "projects": {
+            "header": "Projets"
+        },
         "resume": {
             "header": "Curriculum vitæ",
             "download": "Télécharger (PDF)"
