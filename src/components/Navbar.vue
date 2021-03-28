@@ -37,7 +37,12 @@ export default Vue.extend({
         {
           label: "routes.resume",
           icon: "mdi-file-account",
-          to: "resume",
+          to: "/resume",
+        },
+        {
+          label: "routes.projects",
+          icon: "mdi-clipboard-list",
+          to: "/projects",
         },
         {
           label: "routes.contact",
@@ -54,5 +59,3 @@ export default Vue.extend({
   },
 });
 </script>
-<style lang="">
-</style>

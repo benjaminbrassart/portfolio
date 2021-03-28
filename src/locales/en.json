@@ -2,8 +2,8 @@
     "routes": {
         "home": "Home page",
         "resume": "Resume",
+        "projects": "Projects",
         "contact": "Contact",
         "links": "Links"
-    },
-    "content": {}
+    }
 }

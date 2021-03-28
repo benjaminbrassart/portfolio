@@ -2,6 +2,7 @@
     "routes": {
         "home": "Accueil",
         "resume": "Curriculum vitæ",
+        "projects": "Projets",
         "contact": "Contact",
         "links": "Liens"
     }
