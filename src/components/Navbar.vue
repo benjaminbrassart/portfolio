@@ -41,7 +41,7 @@ export default Vue.extend({
         },
         {
           label: "routes.projects",
-          icon: "mdi-clipboard-list",
+          icon: "mdi-briefcase-check",
           to: "/projects",
         },
         {
