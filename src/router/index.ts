@@ -37,14 +37,6 @@ const routes: Array<RouteConfig> = [
             title: "contact",
         },
     },
-    {
-        path: "/links",
-        name: "Links",
-        component: () => import("@/views/Links.vue"),
-        meta: {
-            title: "links",
-        },
-    },
 ];
 
 const prefix = "Benjamin BRASSART";
