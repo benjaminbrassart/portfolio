@@ -44,6 +44,9 @@
           <v-icon>mdi-lead-pencil</v-icon>
         </template>
       </v-textarea>
+      <p class="text-left">
+        {{ $t("content.contact.data-privacy") }}
+      </p>
     </v-container>
   </div>
 </template>

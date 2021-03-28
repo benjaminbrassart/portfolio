@@ -7,11 +7,17 @@
         "links": "Liens"
     },
     "content": {
+        "home": {
+            "header-1": "Bonjour,",
+            "header-2": "je suis Benjamin !",
+            "welcome": "Bienvenue sur mon portfolio !"
+        },
         "contact": {
             "header": "Envoyer un message",
             "message-content": "Message",
             "message-name": "Nom et prénom",
             "message-email": "Adresse e-mail",
+            "data-privacy": "Les données collectées ne seront en aucun cas transmises à un tier.",
             "error": {
                 "name": {
                     "minimum": "Le nom n'est pas assez long (3 charactères minimum)",
@@ -26,6 +32,10 @@
                     "maximum": "Le message est trop long (2000 charactères maximum)"
                 }
             }
+        },
+        "resume": {
+            "header": "Curriculum vitæ",
+            "download": "Télécharger (PDF)"
         },
         "global": {
             "change-locale": "Changer de langue"
