@@ -15,15 +15,36 @@
         </v-list-item-content>
       </v-list-item>
     </v-list>
+
+    <v-list dense>
+      <v-list-item link v-bind="attrs" v-on="on">
+        <v-list-item-icon>
+          <v-icon>mdi-translate</v-icon>
+        </v-list-item-icon>
+
+        <v-list-item-content>
+          <v-list-item-title>
+            {{ $t("content.global.change-locale") }}
+          </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+    </v-list>
   </v-navigation-drawer>
 </template>
 <script lang="ts">
+import i18n from "@/i18n";
 import Vue from "vue";
 
 export default Vue.extend({
   name: "Navbar",
+  methods: {
+    changeLocale(locale: string) {
+      if (!i18n.availableLocales.includes(locale)) throw "locale not available";
+    },
+  },
   data() {
     return {
+      i18n,
       drawer: {
         enabled: true,
         mini: true,

@@ -26,6 +26,9 @@
                     "maximum": "Le message est trop long (2000 charactères maximum)"
                 }
             }
+        },
+        "global": {
+            "change-locale": "Changer de langue"
         }
     }
 }
