@@ -3,7 +3,7 @@
     <Navbar />
     <v-container>
       <v-row style="justify-content: center">
-        <v-col xl="8">
+        <v-col cols="12" xl="8">
           <router-view />
         </v-col>
       </v-row>

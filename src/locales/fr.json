@@ -40,8 +40,13 @@
             "header": "Curriculum vitæ",
             "download": "Télécharger (PDF)"
         },
-        "global": {
-            "change-locale": "Changer de langue"
+        "drawer": {
+            "change-locale": "Changer de langue",
+            "source-code": "Code source"
         }
+    },
+    "tag": {
+        "c": "C",
+        "42": "42"
     }
 }
