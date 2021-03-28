@@ -1,0 +1,8 @@
+{
+    "routes": {
+        "home": "Accueil",
+        "resume": "Curriculum vitæ",
+        "contact": "Contact",
+        "links": "Liens"
+    }
+}

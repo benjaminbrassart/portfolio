@@ -1,0 +1,9 @@
+{
+    "routes": {
+        "home": "Home page",
+        "resume": "Resume",
+        "contact": "Contact",
+        "links": "Links"
+    },
+    "content": {}
+}
