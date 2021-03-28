@@ -1,11 +1,11 @@
 <template>
-  <div>Home</div>
+  <div>Resume</div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "Home",
+  name: "Resume",
 });
 </script>
