@@ -8,8 +8,24 @@
     },
     "content": {
         "contact": {
-            "header": "Me contacter",
-            "message-content": "Message"
+            "header": "Envoyer un message",
+            "message-content": "Message",
+            "message-name": "Nom et prénom",
+            "message-email": "Adresse e-mail",
+            "error": {
+                "name": {
+                    "minimum": "Le nom n'est pas assez long (3 charactères minimum)",
+                    "maximum": "Le nom est trop long (64 charactères maximum)"
+                },
+                "email": {
+                    "maximum": "L'adresse e-mail est trop longue (255 charactères maximum)",
+                    "invalid": "L'adresse e-mail est invalide"
+                },
+                "content": {
+                    "minimum": "Le message n'est pas assez long (20 charactères minimum)",
+                    "maximum": "Le message est trop long (2000 charactères maximum)"
+                }
+            }
         }
     }
 }
