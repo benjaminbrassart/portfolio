@@ -16,6 +16,8 @@
       </v-list-item>
     </v-list>
 
+    <v-divider />
+
     <v-list dense>
       <v-list-item link v-bind="attrs" v-on="on" disabled>
         <v-list-item-icon>
