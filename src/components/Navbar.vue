@@ -17,7 +17,7 @@
     </v-list>
 
     <v-list dense>
-      <v-list-item link v-bind="attrs" v-on="on">
+      <v-list-item link v-bind="attrs" v-on="on" disabled>
         <v-list-item-icon>
           <v-icon>mdi-translate</v-icon>
         </v-list-item-icon>
