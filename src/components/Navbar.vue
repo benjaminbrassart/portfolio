@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer v-model="drawer.enabled" expand-on-hover app>
+  <v-navigation-drawer v-model="drawer" expand-on-hover app>
     <v-divider />
 
     <v-list dense>
@@ -37,9 +37,9 @@
             >
               {{ item.label }}
               <div class="text-right">
-                <v-icon class="grey--text text--darken-2"
-                  >mdi-open-in-new</v-icon
-                >
+                <v-icon class="grey--text text--darken-2">
+                  mdi-open-in-new
+                </v-icon>
               </div>
             </v-list-item-title>
           </v-list-item-content>
@@ -78,10 +78,7 @@ export default Vue.extend({
   data() {
     return {
       i18n,
-      drawer: {
-        enabled: true,
-        mini: true,
-      },
+      drawer: true,
       routes: [
         {
           label: "routes.home",
