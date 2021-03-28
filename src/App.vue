@@ -1,17 +1,26 @@
 <template>
   <div id="app">
     <Navbar />
-    <router-view />
+    <v-container>
+      <v-row style="justify-content: center">
+        <v-col xl="8">
+          <router-view />
+        </v-col>
+      </v-row>
+    </v-container>
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import Navbar from "./components/Navbar.vue";
+import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
 
 export default Vue.extend({
   components: {
     Navbar,
+    Footer,
   },
 });
 </script>
