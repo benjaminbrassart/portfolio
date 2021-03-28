@@ -5,5 +5,11 @@
         "projects": "Projets",
         "contact": "Contact",
         "links": "Liens"
+    },
+    "content": {
+        "contact": {
+            "header": "Me contacter",
+            "message-content": "Message"
+        }
     }
 }
